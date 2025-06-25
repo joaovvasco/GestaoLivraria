@@ -5,6 +5,7 @@ obj/
 [Ll]og/
 *.log
 
+
 ## User-specific files
 *.user
 *.suo
@@ -92,3 +93,4 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 *.stackdump
+
