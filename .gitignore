@@ -1,0 +1,94 @@
+## Build artifacts
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+.history/
+
+## Rider
+.idea/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Azure artifacts
+*.azurepubxml
+*.publishsettings
+
+## publish
+**/publish/
+**/PublishProfiles/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.lock.json
+project.assets.json
+PackageLock.json
+
+# Dotnet CLI
+**/obj/project.assets.json
+**/obj/project.nuget.cache
+
+## VS for Mac
+.vscode/
+.DS_Store
+.idea/
+
+## Temporary files
+*.tmp
+*.bak
+*.swp
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+## Resharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+## Auto-generated
+Generated_Code/
+
+## Logs
+*.log
+logs/
+
+## Others
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+
+## Configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Global JSON
+global.json
+
+## TFS
+$tf/
+
+## OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.stackdump
