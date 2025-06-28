@@ -30,7 +30,7 @@ namespace GestaoLivraria.Validation
             else if (!request.Genre.HasEnum<Genre>())
                 list.Add(MSG_INVALID_VALUE.Replace("{0}", "Genre"));
 
-            if (request.Amount <= 0)
+            if (request.Quantity <= 0)
                 list.Add(MSG_MUST_BE_GREATER_THAN_ZERO.Replace("{0}", "Amount"));
 
             if(request.Price <= 0)

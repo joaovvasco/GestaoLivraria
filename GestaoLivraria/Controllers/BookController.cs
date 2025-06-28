@@ -31,7 +31,7 @@ namespace GestaoLivraria.Controllers
                 Author = request.Author,
                 Genre = (Genre) Enum.Parse(typeof(Genre), request.Genre),
                 Price = request.Price,
-                Amount = request.Amount
+                Quantity = request.Quantity
             };
 
             books.Add(book);
@@ -72,7 +72,7 @@ namespace GestaoLivraria.Controllers
             book.Title = request.Title; 
             book.Author = request.Author;
             book.Price = request.Price; 
-            book.Amount = request.Amount;
+            book.Quantity = request.Quantity;
             
             return NoContent();
         }

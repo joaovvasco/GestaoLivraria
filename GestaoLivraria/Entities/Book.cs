@@ -9,6 +9,6 @@ namespace GestaoLivraria.Entities
         public string Author { get; set; }
         public Genre Genre { get; set; }
         public decimal Price { get; set; }
-        public int Amount { get; set; } = 0;
+        public int Quantity { get; set; } = 0;
     }
 }
