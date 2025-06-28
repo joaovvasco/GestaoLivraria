@@ -2,7 +2,7 @@
 {
     public enum Genre
     {
-        FICTION,
+        FICTION = 0,
         ROMANCE,
         MISTERY
     }

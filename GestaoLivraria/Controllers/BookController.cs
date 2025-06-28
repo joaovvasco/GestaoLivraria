@@ -29,7 +29,7 @@ namespace GestaoLivraria.Controllers
             {
                 Title = request.Title,
                 Author = request.Author,
-                Genre = (Genre) Enum.Parse(typeof(Genre), request.Genre),
+                Genre = request.Genre,
                 Price = request.Price,
                 Quantity = request.Quantity
             };

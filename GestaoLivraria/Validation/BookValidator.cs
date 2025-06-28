@@ -13,7 +13,7 @@ namespace GestaoLivraria.Validation
 
         private static readonly string MSG_INVALID_VALUE = "O valor do campo '{0}' é inválido!";
 
-        private List<string> list = new List<string>();
+        private List<string> list = [];
 
         public List<string> Validate(BookRequestJson request) 
         {
@@ -25,9 +25,7 @@ namespace GestaoLivraria.Validation
             if (request.Author.IsBlank())
                 list.Add(REQUIRED.Replace("{0}", "Author"));
 
-            if(request.Genre.IsBlank())
-                list.Add(REQUIRED.Replace("{0}", "Genre"));
-            else if (!request.Genre.HasEnum<Genre>())
+            if (!Enum.IsDefined(typeof(Genre), request.Genre))
                 list.Add(MSG_INVALID_VALUE.Replace("{0}", "Genre"));
 
             if (request.Quantity <= 0)
