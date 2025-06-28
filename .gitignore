@@ -4,7 +4,7 @@ obj/
 [Bb]uild/
 [Ll]og/
 *.log
-
+.vs/
 
 ## User-specific files
 *.user
